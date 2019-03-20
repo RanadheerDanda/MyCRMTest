@@ -49,7 +49,7 @@ public class ContactsPageTest extends TestBase{
 		contactsPage = new ContactsPage();
 		loginPage = new LoginPage();
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-		//TestUtil.runTimeInfo("error", "login successful");
+		TestUtil.runTimeInfo("error", "login successful");
 		testUtil.switchToFrame();
 		contactsPage = homePage.clickOnContactsLink();
 	}
@@ -67,7 +67,7 @@ public class ContactsPageTest extends TestBase{
 	@Test(priority=3)
 	public void selectMultipleContactsTest(){
 		contactsPage.selectContactByName("David Cris");
-		contactsPage.selectContactByName("Mukta Sharma  ");
+		contactsPage.selectContactByName("Mukta Sharma");
 
 	}
 	
