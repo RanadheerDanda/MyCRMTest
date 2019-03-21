@@ -3,22 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="com.crm.qa.utils.MyTransformer"/>
   </listeners>
   <test name="Free CRM App Test Cases(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.FreeCrmTest">
+      <class name="com.crm.qa.testcases.MyTests">
         <methods>
-          <include name="setUp"/>
-          <include name="freeCrmTitleTest"/>
+          <include name="Test1"/>
+          <include name="Test2"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.FreeCrmTest -->
-      <class name="com.crm.qa.testcases.ContactsPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="selectSingleContactsTest"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      </class> <!-- com.crm.qa.testcases.MyTests -->
     </classes>
   </test> <!-- Free CRM App Test Cases(failed) -->
 </suite> <!-- Failed suite [Suite] -->
