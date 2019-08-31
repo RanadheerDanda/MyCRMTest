@@ -46,9 +46,11 @@ public class LoginPageTest extends TestBase{
 	public void LoginTest() {
 	homepage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 	}
+	
+	
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();
-		
+	
 	}
 }
