@@ -82,7 +82,7 @@ public class ContactsPageTest extends TestBase{
 	public void validateCreateNewContact(String title, String firstName, String lastName, String company){
 		homePage.clickOnNewContactLink();
 		//contactsPage.createNewContact("Mr.", "Tom", "Peter", "Google");
-		contactsPage.createNewContact(title, firstName, lastName, company);
+		contactsPage.createNewContact(title, firstName, lastName+System.currentTimeMillis(), company);
 		 
 	}
 	
