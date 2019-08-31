@@ -1,5 +1,7 @@
-com\crm\qa\testcases\ContactsPageTest.class
-com\crm\qa\testcases\FreeCrmTest.class
 com\crm\qa\testcases\DealsPageTest.class
 com\crm\qa\testcases\HomePageTest.class
+com\crm\qa\testcases\ContactsPageTest.class
+com\crm\qa\testcases\FreeCrmTest.class
+FreeCRMTest\FreeCRMTest\AppTest.class
+com\crm\qa\testcases\MyTests.class
 com\crm\qa\testcases\LoginPageTest.class

@@ -1,13 +1,424 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="6" failed="2" ignored="0" total="9" passed="1">
+<testng-results ignored="1" total="31" passed="22" failed="2" skipped="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="186" started-at="2019-03-21T06:11:22Z" finished-at="2019-03-21T06:11:22Z">
+  <suite started-at="2019-08-30T13:13:19Z" name="Suite" finished-at="2019-08-30T13:23:57Z" duration-ms="637639">
     <groups>
     </groups>
-    <test name="Free CRM App Test Cases" duration-ms="186" started-at="2019-03-21T06:11:22Z" finished-at="2019-03-21T06:11:22Z">
+    <test started-at="2019-08-30T13:13:19Z" name="Free CRM App Test Cases" finished-at="2019-08-30T13:23:57Z" duration-ms="637639">
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@5e316c74]" started-at="2019-08-30T18:43:32Z" name="setUp" finished-at="2019-08-30T18:43:48Z" duration-ms="15976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@5e316c74]" started-at="2019-08-30T18:43:48Z" name="verifyHomePageTitleTest" finished-at="2019-08-30T18:43:48Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@5e316c74]" started-at="2019-08-30T18:43:48Z" name="tearDown" finished-at="2019-08-30T18:43:49Z" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@5e316c74]" started-at="2019-08-30T18:45:07Z" name="setUp" finished-at="2019-08-30T18:45:22Z" duration-ms="14897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserNameTest()[pri:2, instance:com.crm.qa.testcases.HomePageTest@5e316c74]" started-at="2019-08-30T18:45:22Z" name="verifyUserNameTest" finished-at="2019-08-30T18:45:22Z" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@5e316c74]" started-at="2019-08-30T18:45:22Z" name="tearDown" finished-at="2019-08-30T18:45:22Z" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@5e316c74]" started-at="2019-08-30T18:46:55Z" name="setUp" finished-at="2019-08-30T18:47:08Z" duration-ms="13189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactsLinkTest()[pri:3, instance:com.crm.qa.testcases.HomePageTest@5e316c74]" started-at="2019-08-30T18:47:08Z" name="verifyContactsLinkTest" finished-at="2019-08-30T18:47:10Z" duration-ms="1441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@5e316c74]" started-at="2019-08-30T18:47:10Z" name="tearDown" finished-at="2019-08-30T18:47:10Z" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6ac13091]" started-at="2019-08-30T18:43:49Z" name="setUp" finished-at="2019-08-30T18:44:22Z" duration-ms="32935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactsPageLabel()[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@6ac13091]" started-at="2019-08-30T18:44:22Z" name="verifyContactsPageLabel" finished-at="2019-08-30T18:44:22Z" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageLabel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6ac13091]" started-at="2019-08-30T18:44:22Z" name="tearDown" finished-at="2019-08-30T18:44:23Z" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6ac13091]" started-at="2019-08-30T18:45:56Z" name="setUp" finished-at="2019-08-30T18:46:45Z" duration-ms="48264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectSingleContactsTest()[pri:2, instance:com.crm.qa.testcases.ContactsPageTest@6ac13091]" started-at="2019-08-30T18:46:45Z" name="selectSingleContactsTest" finished-at="2019-08-30T18:46:45Z" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSingleContactsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6ac13091]" started-at="2019-08-30T18:46:45Z" name="tearDown" finished-at="2019-08-30T18:46:45Z" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6ac13091]" started-at="2019-08-30T18:47:10Z" name="setUp" finished-at="2019-08-30T18:47:42Z" duration-ms="31469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectMultipleContactsTest()[pri:3, instance:com.crm.qa.testcases.ContactsPageTest@6ac13091]" started-at="2019-08-30T18:47:42Z" name="selectMultipleContactsTest" finished-at="2019-08-30T18:47:42Z" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMultipleContactsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6ac13091]" started-at="2019-08-30T18:47:42Z" name="tearDown" finished-at="2019-08-30T18:47:43Z" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6ac13091]" started-at="2019-08-30T18:52:03Z" name="setUp" finished-at="2019-08-30T18:52:34Z" duration-ms="30910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.ContactsPageTest@6ac13091]" started-at="2019-08-30T18:52:34Z" name="validateCreateNewContact" data-provider="getCRMTestData" finished-at="2019-08-30T18:52:38Z" duration-ms="4622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6ac13091]" started-at="2019-08-30T18:52:38Z" name="tearDown" finished-at="2019-08-30T18:52:39Z" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6ac13091]" started-at="2019-08-30T18:52:39Z" name="setUp" finished-at="2019-08-30T18:53:16Z" duration-ms="36971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.ContactsPageTest@6ac13091]" started-at="2019-08-30T18:53:16Z" name="validateCreateNewContact" data-provider="getCRMTestData" finished-at="2019-08-30T18:53:20Z" duration-ms="4305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[David]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cris]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Amazon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6ac13091]" started-at="2019-08-30T18:53:20Z" name="tearDown" finished-at="2019-08-30T18:53:21Z" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6ac13091]" started-at="2019-08-30T18:53:21Z" name="setUp" finished-at="2019-08-30T18:53:52Z" duration-ms="30784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.ContactsPageTest@6ac13091]" started-at="2019-08-30T18:53:52Z" name="validateCreateNewContact" data-provider="getCRMTestData" finished-at="2019-08-30T18:53:56Z" duration-ms="4511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrs.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mukta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ebay]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6ac13091]" started-at="2019-08-30T18:53:56Z" name="tearDown" finished-at="2019-08-30T18:53:57Z" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      <class name="com.crm.qa.testcases.DealsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:44:23Z" name="setUp" finished-at="2019-08-30T18:44:55Z" duration-ms="32149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactsPageLabel()[pri:1, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:44:55Z" name="verifyContactsPageLabel" finished-at="2019-08-30T18:44:55Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageLabel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:44:55Z" name="tearDown" finished-at="2019-08-30T18:44:56Z" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:45:22Z" name="setUp" finished-at="2019-08-30T18:45:54Z" duration-ms="31787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectSingleDealsTest()[pri:2, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:45:54Z" name="selectSingleDealsTest" finished-at="2019-08-30T18:45:56Z" duration-ms="1376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSingleDealsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:45:56Z" name="tearDown" finished-at="2019-08-30T18:45:56Z" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:47:43Z" name="setUp" finished-at="2019-08-30T18:48:14Z" duration-ms="31167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectMultipleContactsTest()[pri:3, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:48:14Z" name="selectMultipleContactsTest" finished-at="2019-08-30T18:48:15Z" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMultipleContactsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:48:15Z" name="tearDown" finished-at="2019-08-30T18:48:16Z" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:48:32Z" name="setUp" finished-at="2019-08-30T18:49:07Z" duration-ms="35214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewDeals(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:49:07Z" name="validateCreateNewDeals" data-provider="getCRMTestData" finished-at="2019-08-30T18:49:12Z" duration-ms="5096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranadheer Deal1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewDeals -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:49:12Z" name="tearDown" finished-at="2019-08-30T18:49:13Z" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:49:13Z" name="setUp" finished-at="2019-08-30T18:49:44Z" duration-ms="30427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewDeals(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:49:44Z" name="validateCreateNewDeals" data-provider="getCRMTestData" finished-at="2019-08-30T18:49:48Z" duration-ms="4411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranadheer Deal2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[accenture]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewDeals -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:49:48Z" name="tearDown" finished-at="2019-08-30T18:49:49Z" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:49:49Z" name="setUp" finished-at="2019-08-30T18:50:19Z" duration-ms="30809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewDeals(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:50:19Z" name="validateCreateNewDeals" data-provider="getCRMTestData" finished-at="2019-08-30T18:50:24Z" duration-ms="4386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranadheer Deal3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NTT Data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewDeals -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:50:24Z" name="tearDown" finished-at="2019-08-30T18:50:24Z" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:50:24Z" name="setUp" finished-at="2019-08-30T18:51:01Z" duration-ms="36893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewDeals(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:51:01Z" name="validateCreateNewDeals" data-provider="getCRMTestData" finished-at="2019-08-30T18:51:06Z" duration-ms="4227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranadheer Deal4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Capgemini]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewDeals -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:51:06Z" name="tearDown" finished-at="2019-08-30T18:51:06Z" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:51:06Z" name="setUp" finished-at="2019-08-30T18:51:58Z" duration-ms="51432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewDeals(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:51:58Z" name="validateCreateNewDeals" data-provider="getCRMTestData" finished-at="2019-08-30T18:52:02Z" duration-ms="4237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranadheer Deal5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewDeals -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6d2a209c]" started-at="2019-08-30T18:52:02Z" name="tearDown" finished-at="2019-08-30T18:52:03Z" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.DealsPageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@48fa0f47]" started-at="2019-08-30T18:43:19Z" name="setup" finished-at="2019-08-30T18:43:32Z" duration-ms="12594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@48fa0f47]" started-at="2019-08-30T18:43:32Z" name="loginPageTitleTest" finished-at="2019-08-30T18:43:32Z" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@48fa0f47]" started-at="2019-08-30T18:43:32Z" name="tearDown" finished-at="2019-08-30T18:43:32Z" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@48fa0f47]" started-at="2019-08-30T18:44:56Z" name="setup" finished-at="2019-08-30T18:45:06Z" duration-ms="10493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCurrentURL()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@48fa0f47]" started-at="2019-08-30T18:45:06Z" name="verifyCurrentURL" finished-at="2019-08-30T18:45:06Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCurrentURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@48fa0f47]" started-at="2019-08-30T18:45:06Z" name="tearDown" finished-at="2019-08-30T18:45:07Z" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@48fa0f47]" started-at="2019-08-30T18:46:45Z" name="setup" finished-at="2019-08-30T18:46:54Z" duration-ms="8994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageLogo()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@48fa0f47]" started-at="2019-08-30T18:46:54Z" name="verifyLoginPageLogo" finished-at="2019-08-30T18:46:54Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@48fa0f47]" started-at="2019-08-30T18:46:54Z" name="tearDown" finished-at="2019-08-30T18:46:55Z" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@48fa0f47]" started-at="2019-08-30T18:48:16Z" name="setup" finished-at="2019-08-30T18:48:25Z" duration-ms="8946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest()[pri:4, instance:com.crm.qa.testcases.LoginPageTest@48fa0f47]" started-at="2019-08-30T18:48:25Z" name="LoginTest" finished-at="2019-08-30T18:48:30Z" duration-ms="5171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@48fa0f47]" started-at="2019-08-30T18:48:30Z" name="tearDown" finished-at="2019-08-30T18:48:31Z" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
       <class name="com.crm.qa.testcases.MyTests">
-        <test-method status="SKIP" signature="Test1()[pri:0, instance:com.crm.qa.testcases.MyTests@64bf3bbf]" name="Test1" duration-ms="21" started-at="2019-03-21T11:41:22Z" finished-at="2019-03-21T11:41:22Z">
+        <test-method signature="Test1()[pri:0, instance:com.crm.qa.testcases.MyTests@75329a49]" started-at="2019-08-30T18:43:19Z" name="Test1" finished-at="2019-08-30T18:43:19Z" duration-ms="11" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -21,10 +432,10 @@
 	at org.testng.Assert.assertEquals(Assert.java:304)
 	at org.testng.Assert.assertEquals(Assert.java:314)
 	at com.crm.qa.testcases.MyTests.Test1(MyTests.java:10)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
@@ -43,16 +454,16 @@
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method status="SKIP" signature="Test1()[pri:0, instance:com.crm.qa.testcases.MyTests@64bf3bbf]" name="Test1" duration-ms="3" started-at="2019-03-21T11:41:22Z" finished-at="2019-03-21T11:41:22Z">
+        <test-method signature="Test1()[pri:0, instance:com.crm.qa.testcases.MyTests@75329a49]" started-at="2019-08-30T18:43:19Z" name="Test1" finished-at="2019-08-30T18:43:19Z" duration-ms="1" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -66,10 +477,10 @@
 	at org.testng.Assert.assertEquals(Assert.java:304)
 	at org.testng.Assert.assertEquals(Assert.java:314)
 	at com.crm.qa.testcases.MyTests.Test1(MyTests.java:10)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
 	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
@@ -88,16 +499,16 @@
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method status="SKIP" signature="Test1()[pri:0, instance:com.crm.qa.testcases.MyTests@64bf3bbf]" name="Test1" duration-ms="12" started-at="2019-03-21T11:41:22Z" finished-at="2019-03-21T11:41:22Z">
+        <test-method signature="Test1()[pri:0, instance:com.crm.qa.testcases.MyTests@75329a49]" started-at="2019-08-30T18:43:19Z" name="Test1" finished-at="2019-08-30T18:43:19Z" duration-ms="1" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -111,10 +522,10 @@
 	at org.testng.Assert.assertEquals(Assert.java:304)
 	at org.testng.Assert.assertEquals(Assert.java:314)
 	at com.crm.qa.testcases.MyTests.Test1(MyTests.java:10)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
 	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
@@ -133,16 +544,16 @@
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method status="FAIL" signature="Test1()[pri:0, instance:com.crm.qa.testcases.MyTests@64bf3bbf]" name="Test1" duration-ms="9" started-at="2019-03-21T11:41:22Z" finished-at="2019-03-21T11:41:22Z">
+        <test-method signature="Test1()[pri:0, instance:com.crm.qa.testcases.MyTests@75329a49]" started-at="2019-08-30T18:43:19Z" name="Test1" finished-at="2019-08-30T18:43:19Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -156,10 +567,10 @@
 	at org.testng.Assert.assertEquals(Assert.java:304)
 	at org.testng.Assert.assertEquals(Assert.java:314)
 	at com.crm.qa.testcases.MyTests.Test1(MyTests.java:10)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
 	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
@@ -178,16 +589,16 @@
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method status="SKIP" signature="Test2()[pri:0, instance:com.crm.qa.testcases.MyTests@64bf3bbf]" name="Test2" duration-ms="7" started-at="2019-03-21T11:41:22Z" finished-at="2019-03-21T11:41:22Z">
+        <test-method signature="Test2()[pri:0, instance:com.crm.qa.testcases.MyTests@75329a49]" started-at="2019-08-30T18:43:19Z" name="Test2" finished-at="2019-08-30T18:43:19Z" duration-ms="1" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -201,10 +612,10 @@
 	at org.testng.Assert.assertEquals(Assert.java:304)
 	at org.testng.Assert.assertEquals(Assert.java:314)
 	at com.crm.qa.testcases.MyTests.Test2(MyTests.java:16)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
@@ -223,16 +634,16 @@
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method status="SKIP" signature="Test2()[pri:0, instance:com.crm.qa.testcases.MyTests@64bf3bbf]" name="Test2" duration-ms="3" started-at="2019-03-21T11:41:22Z" finished-at="2019-03-21T11:41:22Z">
+        <test-method signature="Test2()[pri:0, instance:com.crm.qa.testcases.MyTests@75329a49]" started-at="2019-08-30T18:43:19Z" name="Test2" finished-at="2019-08-30T18:43:19Z" duration-ms="0" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -246,10 +657,10 @@
 	at org.testng.Assert.assertEquals(Assert.java:304)
 	at org.testng.Assert.assertEquals(Assert.java:314)
 	at com.crm.qa.testcases.MyTests.Test2(MyTests.java:16)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
 	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
@@ -268,16 +679,16 @@
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method status="SKIP" signature="Test2()[pri:0, instance:com.crm.qa.testcases.MyTests@64bf3bbf]" name="Test2" duration-ms="5" started-at="2019-03-21T11:41:22Z" finished-at="2019-03-21T11:41:22Z">
+        <test-method signature="Test2()[pri:0, instance:com.crm.qa.testcases.MyTests@75329a49]" started-at="2019-08-30T18:43:19Z" name="Test2" finished-at="2019-08-30T18:43:19Z" duration-ms="1" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -291,10 +702,10 @@
 	at org.testng.Assert.assertEquals(Assert.java:304)
 	at org.testng.Assert.assertEquals(Assert.java:314)
 	at com.crm.qa.testcases.MyTests.Test2(MyTests.java:16)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
 	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
@@ -313,16 +724,16 @@
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method status="FAIL" signature="Test2()[pri:0, instance:com.crm.qa.testcases.MyTests@64bf3bbf]" name="Test2" duration-ms="3" started-at="2019-03-21T11:41:22Z" finished-at="2019-03-21T11:41:22Z">
+        <test-method signature="Test2()[pri:0, instance:com.crm.qa.testcases.MyTests@75329a49]" started-at="2019-08-30T18:43:19Z" name="Test2" finished-at="2019-08-30T18:43:19Z" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -336,10 +747,10 @@
 	at org.testng.Assert.assertEquals(Assert.java:304)
 	at org.testng.Assert.assertEquals(Assert.java:314)
 	at com.crm.qa.testcases.MyTests.Test2(MyTests.java:16)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
 	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
@@ -358,16 +769,16 @@
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="Test3()[pri:0, instance:com.crm.qa.testcases.MyTests@64bf3bbf]" name="Test3" duration-ms="5" started-at="2019-03-21T11:41:22Z" finished-at="2019-03-21T11:41:22Z">
+        <test-method signature="Test3()[pri:0, instance:com.crm.qa.testcases.MyTests@75329a49]" started-at="2019-08-30T18:43:19Z" name="Test3" finished-at="2019-08-30T18:43:19Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
